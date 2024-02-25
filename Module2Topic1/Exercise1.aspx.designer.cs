@@ -60,12 +60,12 @@ namespace Module1Exercise1
         protected global::System.Web.UI.WebControls.Button thirdButton;
 
         /// <summary>
-        /// change_text control.
+        /// SongPlaying control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl change_text;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl SongPlaying;
     }
 }
