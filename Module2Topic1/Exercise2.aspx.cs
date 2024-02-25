@@ -13,5 +13,26 @@ namespace Module1Exercise1
         {
 
         }
+
+        protected void ButtonSave_Click(object sender, EventArgs e)
+        {
+            if (FileUpload.HasFile)
+            {
+                string fileExtension = System.IO.Path.GetExtension(FileUpload.FileName).ToLower();
+                if (fileExtension == ".jpg" || fileExtension == ".png")
+                {
+                    lblmessage.Text = "File uploaded successfully!";
+                }
+                else
+                {
+                    lblmessage.Text = "Please upload a JPG or PNG file!";
+                }
+            }
+            else
+            {
+                lblmessage.Text = "Please select a file to upload!";
+            }
+        }
+
     }
 }
