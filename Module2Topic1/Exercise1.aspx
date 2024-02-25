@@ -22,7 +22,7 @@
         <%-- Hint: https://www.tutorialspoint.com/asp.net/asp.net_basic_controls.htm#:~:text=Image%20Control --%>
 
         <div>
-            <asp:Image ID="firstImage" runat="server" ImageUrl="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPerfect_Night_%2528Le_Sserafim_song%2529&psig=AOvVaw0eVNc_GlX2pUO6_-y3FFUC&ust=1708955475348000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCPj10bPRxoQDFQAAAAAdAAAAABAE" Height="200px" Width="200px"></asp:Image>
+            <asp:Image ID="firstImage" runat="server" ImageUrl="https://kpopping.com/documents/75/0/2688/LE-SSERAFIM-Digital-Single-Perfect-Night-CONCEPT-PHOTO-documents-1.jpeg?v=b15de" Height="200px" Width="200px"></asp:Image>
         </div>
 
         <%-- TODO 2.3 Create three buttons with texts. "Prev", "Play", and "Next" --%>
